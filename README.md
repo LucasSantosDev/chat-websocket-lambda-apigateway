@@ -2,11 +2,9 @@
 
 ### Example
 
-See this video!
+See this git with example!
 
-<video width="100%" height="100%" controls>
-  <source src="example.mp4" type="video/mp4">
-</video>
+<img src="./example.gif" alt="example" />
 
 ### Config Lambda
 
