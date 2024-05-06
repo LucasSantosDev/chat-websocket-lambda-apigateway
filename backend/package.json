@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "lambda-build upload NAME-OF-LAMBDA -r us-east-1",
+    "build": "zip lambda.zip -r . -x .nvmrc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1048.0",
+    "lambda-actions": "*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.89",
+    "@types/node": "^17.0.6",
+    "lambda-build": "^1.0.6"
+  }
+}
