@@ -1,5 +1,13 @@
 ## Chat Websocket Real Time (Lambda | ApiGateway)
 
+### Example
+
+See this video!
+
+<video width="100%" height="100%" controls>
+  <source src="example.mp4" type="video/mp4">
+</video>
+
 ### Config Lambda
 
 Create a Lambda and set the code.
